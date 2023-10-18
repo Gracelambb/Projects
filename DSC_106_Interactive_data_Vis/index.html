@@ -1,0 +1,94 @@
+
+<html>  
+<head>  
+<script type="text/javascript" src="script.js"></script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=final_project()> 
+
+<!-- Introduction -->
+<section>
+    <div>
+        <br>
+        <br>
+        <h1 class="main-title">Navigating Undergraduate Expenses:</h1>
+        <h1 class="title2">An Interactive Guide to US Education Costs</h1>
+        <h2 class="author">By Grace Lam</h2>
+        <br>
+        Educational costs have been rising from year to year, and this has
+        posed concerns to many students planning to study in the United States.
+        Students who want to pursue undergraduate studies in the US might 
+        consider the expected expenses of their education as a key factor 
+        in selecting universities. Therefore, in this project, I will provide a 
+        quick guide to help students understand educational costs from state to state,
+        as well as for different educational lengths and types.
+        <br>
+        <div>
+
+</section>
+
+<!-- Chart #1 -->
+<section>
+    <h3>Lets first take a look at the undergraduate expenses in the US from year 2013 to 2021:</h3>
+<div id="p1">
+
+    </div>
+    <div id="plot1" class="center_plot">
+    </div>
+    As we can see, there is a general increase in the average expenses
+    for undergraduate education in the United States from 2013 to 2021.
+     In fact, there is an over 35 percent increase from 2013 to 2021.
+      With increasing undergraduate expenses, it might be good to start 
+      wondering if there is a significant difference across states or a 
+      difference between educational lengths.
+
+</div>    
+</div>
+</section>
+
+<!-- Chart #2 -->
+<section>
+        <h3>Now lets compare across states...</h3>
+        Feel free to click on the buttons below to take a closer look at the 
+        undergraduate expenses overall, for 4-year or for 2-year education.
+        <div id="p2">
+            <br><br>
+            <button id="button_overall">Overall</button>
+            <button id="button_4year">4 year</button>
+            <button id="button_2year">2 year</button>
+        </div>
+        <div id="plot2" class="center_plot"></div>
+        The shade of blue indicates the expenses; the darker the color, 
+        the more expensive it is. We can see that the map for the overall 
+        undergraduate expenses by state is a lot lighter than that of the 
+        4-year because 'overall' includes both 4- and 2-year programs. 
+        A 2-year program is often cheaper because it usually consists of 
+        community college or associate degrees.
+        <br>
+        <br>
+        Now that you have a general idea of the undergraduate expenses 
+        by state and by educational length, you can now play around 
+        with the visualization below to compare your states of interest. 
+        The size of the circles will be proportional to the expenses, 
+        which will allow for a clear comparison. You can also hover 
+        your mouse over the circles to see the specific values.
+</section>
+
+<!-- Chart #3 -->
+
+<section>
+    <h3>Select States from the dropdown to start comparing...</h3>
+    <div id="p3">
+        <select id="dropdown1"></select>
+        <select id="dropdown2"></select>  
+    </div>    
+    <div id="plot3_title" class="center_plot"></div>
+    <div id="plot3_1" class="plot3"></div>
+    <div id="plot3_2" class="plot3"></div>
+
+</section>
+
+</body>  
+</html>  

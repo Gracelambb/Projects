@@ -1,0 +1,99 @@
+:root {
+    --text-width: 850px;
+}
+
+.main-title {
+    width: var(--text-width);
+    font-size: 34px;
+    margin: auto;
+    text-align: center;
+}
+
+.title2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.before_plot{
+    font-size: 16px;
+}
+
+.author {
+    font-size: 16px;
+    text-align: right;
+}
+
+section {
+    width: var(--text-width);
+    margin: auto;
+}
+
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+/* first button */
+
+#button_overall{
+    font-size: 16px;  
+    margin-right: 15px;
+    padding: 5px 10px;
+    background-color: white;     
+}
+
+#button_overall:hover{
+    background-color: skyblue;        
+}
+
+#button_overall:active{
+    background-color: #0D62A4;        
+}
+
+/* 4 year  button */
+
+#button_4year{
+    font-size: 16px;  
+    margin-right: 15px;
+    padding: 5px 10px;
+    background-color: white;      
+}
+
+#button_4year:hover{
+    background-color: skyblue;        
+}
+
+#button_4year:active{
+    background-color: #0D62A4;        
+}
+
+/* 2 year  button */
+
+#button_2year{
+    font-size: 16px;  
+    margin-right: 15px;
+    padding: 5px 10px;
+    background-color: white;       
+}
+
+#button_2year:hover{
+    background-color: skyblue;        
+}
+
+#button_2year:active{
+    background-color: #0D62A4;       
+}
+
+.plot3 {
+    display: inline-block;
+    width: 45%;
+}
+
+#dropdown1 {
+    margin-right: 25px;
+  }
+
