@@ -14,7 +14,7 @@
 -  Built an ensemble model using the stacking technique, which combined LightGBM, Gradient Boost and Random
 Forest Regressor, optimized by using grid search and cross-validation.
 
-## Project 3: Predict Price of Airbnb Listings
+## Project 3: Interactive Data Visualization
 **Code can be found at:** DSC_106_Interactive_data_Vis \
 **PDF version of the webpage:** webpage_pdf.pdf
 
